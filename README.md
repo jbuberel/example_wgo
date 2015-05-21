@@ -8,7 +8,7 @@
 
 ```
 $ go get github.com/skelterjohn/wgo
-$ go install github.com/skelterjohn/wgo
+$ go get github.com/skelterjohn/vendor
 $ git clone https://github.com/jbuberel/example_wgo
 $ cd example_wgo
 $ wgo restore
