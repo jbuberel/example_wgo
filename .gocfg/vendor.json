@@ -1,0 +1,13 @@
+{
+  "GitRepos": {
+    "vendor/src/github.com/gorilla/context": {
+      "URI": "https://github.com/gorilla/context",
+      "Ref": "215affda49addc4c8ef7e2534915df2c8c35c6cd"
+    },
+    "vendor/src/github.com/gorilla/mux": {
+      "URI": "https://github.com/gorilla/mux",
+      "Ref": "94903de8c98a68d8b4483c529b26a5d146e386a2"
+    }
+  },
+  "MercurialRepos": {}
+}
