@@ -7,16 +7,12 @@
 # To build this application:
 
 ```
-$ mkdir wgo
-$ cd wgo
-$ export GOPATH=`pwd`
-$ export GOBIN=$GOPATH/bin
-$ export PATH=$GOBIN:$PATH
 $ go get github.com/skelterjohn/wgo
-$ go install github.com/skelterjohn/wgo
-$ go get github.com/jbuberel/example_wgo
-$ cd src/github.com/jbuberel/example_wgo/
-$ wgo build github.com/jbuberel/example_wgo/wgoserver
+$ go get github.com/skelterjohn/vendor
+$ git clone https://github.com/jbuberel/example_wgo
+$ cd example_wgo
+$ wgo restore
+$ wgo install wgoserver
 ```
 
 # To deploy this app to [Google App Engine](https://cloud.google.com/appengine/):
