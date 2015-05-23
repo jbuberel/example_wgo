@@ -20,6 +20,7 @@ $ wgo install wgoserver
 * Install the [Google Cloud SDK](https://cloud.google.com/sdk/).
 * Create a project in the [Google Cloud Console](https://console.developers.google.com/project).
 
+Execute the following commands from the directory containing the app.yaml file.
 ```
 $ gcloud auth login
 $ gcloud config set project <your-project-name>
