@@ -19,10 +19,10 @@ $ wgo install wgoserver
 
 * Install the [Google Cloud SDK](https://cloud.google.com/sdk/).
 * Create a project in the [Google Cloud Console](https://console.developers.google.com/project).
-* `gcloud auth login`
-* `gcloud config set project <your-project-name>`
 
 ```
+$ gcloud auth login
+$ gcloud config set project <your-project-name>
 $ gcloud preview app deploy --version myapp ./app.yaml --remote
 $ curl myapp.<your-project-name>.appspot.com
 ```
